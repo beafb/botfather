@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0017)https://mee6.xyz/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BotFather, the one you ask to watch">
+    <meta name="author" content="beafb">
+    <title>BotFather, the messenger bot</title>
+    <link rel="shortcut icon" type="image/png" href="">
+    <link href="{{ url_for('static', filename="css/bootstrap.css")}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename="css/skin.css")}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename="css/animate.css")}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename="css/morphext.css")}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename="css/fontello.css")}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/font-awesome.min.css") }}">
+    <script src="{{ url_for('static', filename="js/jquery.min.js")}}"></script>
+</head>
+<body class="home-body">
+<nav style="background:none;" class="navbar navbar-inverse home-navbar navbar-fixed-top animated bounceInDown">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" style="padding:7px 15px!important;" href="https://mee6.xyz/">
+                <span><img src="{{ url_for('static', filename="img/botfather.jpg") }}"
+                           style="width:30px;border:1px solid #006687;box-shadow: 0px 0px 3px #006687;"
+                           class="img-circle"></span>
+                BotFather <span class="badge beta-badge">BETA</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-left">
+                <li><a href="https://mee6.xyz/donate"><i class="fa fa-gift"></i> Donate</a></li>
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron home-jumbotron" style="background-color: black !important;">
+    <div class="container">
+        <div class="row" style="display: flex;align-items: center;">
+            <div class="col-md-6  col-sm-12 text-center">
+                <img src="{{ url_for('static', filename="img/botfather.jpg") }}" class="hidden-xs" style="height:300px">
+                <h3>Introducing <strong>BotFather</strong> the <strong>Messenger</strong> bot </h3>
+                <h1>Add fun</h1>
+                <h2>to your <img src="{{ url_for('static', filename="img/facebook-messenger.svg") }}" style="width:30px"> conversations</h2>
+                <p>
+                    <a href="http://m.me/botfatherco" class="btn btn-home btn-lg">Talk to me</a>
+                </p>
+            </div>
+            <div class="col-md-6 hidden-sm hidden-xs">
+                    Your browser does not support the video tag.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{{ url_for("static", filename="js/bootstrap.min.js") }}"></script>
+<script src="{{ url_for("static", filename="js/morphext.min.js") }}"></script>
+
+
+</body>
+</html>
