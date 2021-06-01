@@ -40,4 +40,4 @@ pyOpenSSL==17.1.0
 pyparsing==2.2.0
 requests==2.18.1
 simplejson==3.10.0
-urllib3==1.21.1
+urllib3==1.26.5
